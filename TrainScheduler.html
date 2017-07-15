@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="utf-8">
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+ <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+ 
+   <title>Trains Time</title>
+   <div class="page-header">
+ 
+ <center><div class="jumbotron" >
+ <span class="glyphicon glyphicon-home"></span>
+   <div id="overlay"><img src="https://media.giphy.com/media/TlK63EDww4g4tXUd0gE/giphy.gif" alt="Be patient..." / id="gif"></div>
+   <h1 class="display-3" id="jumboText">Train  &nbsp;Time</h1></i>
+ 
+ </center>
+ </div>
+ </head>
+ 
+ <body>
+ <div class=container id="results">
+  <div class="head">Current Train Schedule
+<p>
+
+</p>
+  </div>
+   <br>
+ <div class=row id="inputResults" class="resultsCols">
+ <div class="col-md-2" id="trainName"><u>Train Name</u></div>
+ <div class="col-md-2" id="destination"><u>Destination</u></div>
+ <div class="col-md-2" id="trainTime"><u>Train Time</u></div>
+ <div class="col-md-2" id="frequency"><u>Train Frequency</u></div>
+ <div class="col-md-2" class="arm" id="arrival"><font color="#5a5a5a"><u>Arrival Times</u></font></div>
+ <div class="col-md-2" class="arm" id="minutesNext"><font color="#5a5a5a"><u>Minutes to Next</u></font></div>
+ <br>
+  
+ <br>
+ <br>
+ </div>
+ </div>
+   <div class=container id="searchCont">
+   <div class="head"><p>Add Train</p></div>
+   <br>
+   Train Name
+   <br>
+ <div class="input-group">
+    <input type="text" class="form-control" id="trainInput"></div>
+ <br>
+ Destination
+ <br>
+ <div class="input-group">
+   <input type="text" class="form-control" id="destinationInput">
+   </div>
+ <br>
+ First Train Time
+ <br>
+ <div class="input-group">
+   <input type="text" class="form-control" id="timeInput">
+   </div>
+ <br>
+ Frequency
+ <br>
+ <div class="input-group">
+     <input type="text" class="form-control" id="frequencyInput" >
+ </div>
+ <br>
+ <input type="submit" class="btn btn-info" value="Submit" id="submit-button">
+
+ </div>
+ 
+ </div>
+ <br>
+ 
+  <script type="text/javascript" src="app.js"></script>
+ </body>
+ 
+ </html> 

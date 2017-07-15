@@ -1,0 +1,62 @@
+.jumbotron {
+	background-color: #5a5a5a; 
+	color: white;
+	border-radius: 10px;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+}
+#jumboText {
+position: absolute;
+
+}
+
+#gif {
+	height: 110px;
+	position: absolute;
+	top: 10px;
+	right: 300px;
+	width: 300px;
+}
+body {
+
+	
+}
+#searchCont {
+width: 80% ;
+border-style: solid;
+padding: 10px;
+border-radius: 25px;
+font-family: 'Raleway', sans-serif;
+border-color: #5a5a5a;
+
+}
+.head {
+color: #5a5a5a;
+border: 2px solid #049CDB;
+background-color: #48c7fb;
+padding: 5px;
+font-family: 'Anton', sans-serif;
+border-radius: 25px;
+margin: 0px;
+
+
+}
+#results {
+width: 80% ;
+border-style: solid;
+padding: 10px;
+border-radius: 25px;
+margin-bottom: 20px;
+
+
+}
+
+#arrival {
+color: #48c7fb;
+}
+#minutesNext {
+color: #48c7fb;
+}
+#inputResults {
+
+}
