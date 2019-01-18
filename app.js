@@ -23,8 +23,6 @@ var config = {
             destinationInput: destinationInput,
             frequencyInput: frequencyInput,
             timeInput: timeInput,
-          //  arrival: nextTrain,
-          //  minutesnext: tMinutesTillTrain,
             dateAdded: firebase.database.ServerValue.TIMESTAMP
              });    
      });  
